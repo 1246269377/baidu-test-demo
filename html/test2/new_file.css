@@ -112,22 +112,29 @@ body{
 	color: #fdf4f5;
 }
 .article .table{
-	
+	width: 100%;
+	text-align: left;
+	text-indent: 5px;
+	border-right: 1px solid #a1a1a1;
+	border-bottom: 1px solid #a1a1a1;
+	border-collapse:collapse;
 }
-.article .table{
-	
+.article .table td,th{
+	border-left: 1px solid #a1a1a1;
+	border-top: 1px solid #a1a1a1;
 }
-.article .table{
-	
+.article .table a{
+	text-decoration: underline;
+	color: #60379f;
 }
-.article .table{
-	
+.article .table tr:last-child{
+	background: #A1A1A1;
+	font-weight: bold;
 }
-
 
 .aside{
 	margin: 20px;
-	padding: 0 20px 37px 20px;
+	padding: 20px 20px 37px 20px;
 	box-shadow: 1px 1px 1px 1px #848484;
 	border:1px solid #cbcbcb;
 	background: #ffffff;
@@ -136,5 +143,48 @@ body{
 	font-size: 15px;
 	line-height: 38px;
 	text-indent: 10px;
-	border-left: 2px solid #ccc;
+	border-left: 3px solid #ccc;
+}
+.aside table{
+	width: 100%;
+}
+.aside table tr{
+	vertical-align:top;
+}
+.aside table p{
+	color: #ccc;
+	font-size: 12px;
+}
+.aside table tr input,select,textarea{
+}
+.aside table tr td:first-child{
+	text-align: right;
+}
+.aside table tr td:last-child{
+	text-indent: 14px;
+}
+.aside table tr:last-child input{
+	width: 100%;
+	height: 38px;
+	color: #fff;
+	background: #3355d0;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+.aside table textarea{
+	width: 100%;
+}
+/*
+ *cope 
+ */
+.cope{
+	padding-top: 20px;
+	height: 50px;
+	background: #000000;
+}
+.cope p{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
 }

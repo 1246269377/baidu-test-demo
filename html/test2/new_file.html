@@ -27,8 +27,7 @@
 					</li>
 				</ul>
 			</div>
-			
-			
+
 			<div class="article">
 				<h2 class="article-h2">文章一级标题</h2>
 				<h3 class="article-h3">文章二级标题</h3>
@@ -43,8 +42,7 @@
 				<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，
 					<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
 			</div>
-			
-			
+
 			<div class="article">
 				<h2 class="article-h2">文章一级标题</h2>
 				<h3 class="article-h3">文章二级标题</h3>
@@ -104,7 +102,7 @@
 					<p>好看的图片</p>
 					<img src="test1.png" />
 				</div>
-				
+
 			</div>
 			<div class="article">
 				<h2 class="article-h2">文章一级标题</h2>
@@ -118,7 +116,7 @@
 					<li>排名3</li>
 				</ol>
 				<span>下面是一个表格，给表格加上一个border="1"好让你看出是一个表格</span><br />
-				<table border="1" class="table">
+				<table class="table">
 					<thead></thead>
 					<tbody>
 						<tr>
@@ -165,29 +163,60 @@
 			<div class="aside">
 				<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
 				<form>
-					<p><label>请输入邮箱地址:</label><input type="text" /></p>
-					<p>邮箱地址请按要求格式输入</p>
-					<p><label>请输入密码:</label><input type="password" /><label>请重复输入密码:</label><input type="password" /></p>
-					<p>密码请为6-16位英文数字</p>
-					<p><label>性别:</label><input type="radio" name="sex" value="1" />男<input type="radio" name="sex" value="2" />女
-						<label>城市：</label>
-						<select>
+					<table cellspacing="10">
+						<tbody>
+							<tr>
+								<td>请输入邮箱地址</td>
+								<td><input type="text" /></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><p>邮箱地址请按要求格式输入</p></td>
+							</tr>
+							<tr>
+								<td>请输入密码</td>
+								<td><input type="password" /></td>
+							</tr>
+							<tr>
+								<td>请重复输入密码</td>
+								<td><input type="password" /></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><p>密码请为6-16位英文数字</p></td>
+							</tr>
+							<tr>
+								<td>性别:</td>
+								<td><input type="radio" name="sex" value="1" checked="checked"/>男<input type="radio" name="sex" value="2" />女</td>
+							</tr>
+							<tr>
+								<td>城市：</td>
+								<td>
+									<select>
 							<option>北京</option>
 							<option>北京</option>
 							<option>北京</option>
 						</select>
-						<label>爱好:</label>
-						<input type="checkbox" name="love" value="1" />运动
+								</td>
+							</tr>
+							<tr>
+								<td>爱好:</td>
+								<td><input type="checkbox" name="love" value="1" />运动
 						<input type="checkbox" name="love" value="2" />艺术
-						<input type="checkbox" name="love" value="3" />科学
-						<label>个人描述:</label>
-						<textarea>这是一个多行输入框，输入您的个人描述:
-				</textarea>
-						<input type="submit" value="确认提交" />
-					</p>
+						<input type="checkbox" name="love" value="3" />科学</td>
+							</tr>
+							<tr>
+								<td>个人描述:</td>
+								<td><textarea rows="5">这是一个多行输入框，输入您的个人描述:</textarea></td>
+							</tr>
+							<tr>
+								<td colspan="2"><input type="submit" value="确认提交" /></td>
+							</tr>
+						</tbody>
+					</table>
 				</form>
 			</div>
-			<div>
+			<div class="cope">
 				<p>版权所有&copy;</p>
 			</div>
 		</div>
