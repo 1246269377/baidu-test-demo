@@ -1,0 +1,41 @@
+.parent{
+	padding: 20px;
+	margin-left: -20px;
+	background: #eee;
+	border: 1px solid #999;
+}
+.parent:after{
+	visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; 
+}
+.parent .box{
+	margin-left: 20px;
+	background: #fff;
+	box-sizing: border-box;
+	border: 1px solid #999;
+}
+.parent .body1{
+	float: left;
+	padding-bottom: 15px;
+	width: 200px;
+}
+.parent .body2{
+	margin: 0 135px 0 235px;
+	padding:  0 15px;
+	text-indent: 2em;
+	overflow: hidden;
+}
+.parent .body3{
+	float: right;
+	padding-bottom: 15px;
+	width: 120px;
+}
+.parent .logo{
+	margin: 15px 0 0 19px;
+	box-sizing: border-box;
+	width: 80px;
+	height: 80px;
+	background: #dfdfdf;
+	border: 1px solid #999;
+	text-align: center;
+	vertical-align: middle;
+}
